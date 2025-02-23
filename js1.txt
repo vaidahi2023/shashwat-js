@@ -1,0 +1,27 @@
+static webpage -- html,css
+dynamic webpage --js,java,python 
+javascript ?
+which type of language?
+scripting lanaguage ---run on browser
+programming lanaguage --c,c++,python,java -- console screen 
+program --it is set of instruction 
+{
+    //---
+}
+complier 
+interpeter 
+
+javascript is run on browser.
+javascript complier:babel
+
+js was developed bredan eich in 1995
+
+firefox browser: spider monkey
+chrome browser: v8 engine
+safari browser:nitro engine
+microsoft edge:chakra engine
+
+ways to write js 
+internal js
+external js 
+
