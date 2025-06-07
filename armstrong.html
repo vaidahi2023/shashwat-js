@@ -1,0 +1,36 @@
+<!-- 
+153 
+1=1
+5=125
+3=27
+1+125+27=153
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    n=parseInt(prompt("Enter the number"))
+    var rem=0,sum=0
+    var temp=n
+    for(;n>0;)
+    {
+        rem=n%10;
+        sum=sum+rem*rem*rem
+        n=Math.floor(n/10)
+    }
+    if(temp==sum)
+    {
+        alert("it is armstrong number")
+    }
+    else 
+    {
+        alert("it is not an armstrong number")
+    }
+ </script>   
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!-- 
+ palindrome number 
+ 121 
+ reverse 121  --palindrome number 
+
+ 1241
+ 1421 
+ 123
+ 321 --it is not a palindrome number 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        n=parseInt(prompt("Enter the number:"))
+        var rem=0,rev=0
+        for(;n>0;) //123 12>0 1>0 0>0
+        {
+            rem=n%10 //rem=123%10=3 12%10=2 1%10=1
+            rev=rev*10+rem //rev=0*10+3=3 3*10+2=32*10+1=321
+            n=Math.floor(n/10) //n=123/10=12 12/10=1 /10=0
+        }
+        alert("reverse number="+rev)
+
+        // for(;n>0;) //4965 496>0 49>0 4>0 0>0
+        // {
+        //     rem=n%10 //rem=4965%10=5  rem=496%10=6 rem=49%10=9 rem=4%10=4 
+        //     rev=rev*10+rem //rev=0*10+5=5 5*10+6=56 56*10+9=569  569*10+4=5694
+        //     n=Math.floor(n/10) //n=4965%10=496 /10=49 49/10=4 4/10=0
+        // }
+    </script>
+</body>
+</html>
